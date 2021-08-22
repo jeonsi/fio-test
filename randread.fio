@@ -1,0 +1,10 @@
+[randread]
+ioengine=libaio
+iodepth=16
+readwrite=randread
+bs=4k
+direct=0
+size=1024M
+numjobs=4
+runtime=30
+group_reporting=1

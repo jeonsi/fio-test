@@ -1,0 +1,9 @@
+[randreadwrite]
+ioengine=libaio
+direct=1
+gtod_reduce=1
+bs=4k
+iodepth=64
+size=2G
+readwrite=randrw
+rwmixread=75

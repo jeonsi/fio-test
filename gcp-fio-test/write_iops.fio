@@ -1,0 +1,12 @@
+[write_iops]
+size=1G
+time_based=1
+runtime=30s
+ramp_time=2s
+ioengine=libaio
+direct=1
+verify=0
+bs=4K
+iodepth=64
+rw=randwrite
+group_reporting=1

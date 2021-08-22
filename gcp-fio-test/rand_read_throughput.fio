@@ -1,0 +1,13 @@
+[read_throughput]
+numjobs=8
+size=1G
+time_based=1
+runtime=30s
+ramp_time=2s
+ioengine=libaio
+direct=1
+verify=0
+bs=1M
+iodepth=64
+rw=randread
+group_reporting=1

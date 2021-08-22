@@ -12,8 +12,8 @@ iodepth=128
 group_reporting=1
 
 [read_iops]
-rw=randread
+rw=read
 
 [write_iops]
-rw=randwrite
-rate_iops=3200
+rw=write
+rate_iops=3k

@@ -1,8 +1,8 @@
-[seqwrite]
-ioengine=libaio
-direct=1
-iodepth=128
-readwrite=write
+[randwrite]
+#ioengine=libaio
+#direct=1
+#iodepth=128
+readwrite=randwrite
 bs=4k
 size=1g
 numjobs=16

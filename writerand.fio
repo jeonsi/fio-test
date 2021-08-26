@@ -1,7 +1,7 @@
 [randwrite]
-#ioengine=libaio
-#direct=1
-#iodepth=128
+ioengine=libaio
+direct=1
+iodepth=128
 readwrite=randwrite
 bs=4k
 size=1g

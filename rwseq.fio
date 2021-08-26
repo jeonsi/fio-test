@@ -1,4 +1,4 @@
-[readwrite]
+[seqreadwrite]
 ioengine=libaio
 direct=1
 gtod_reduce=1

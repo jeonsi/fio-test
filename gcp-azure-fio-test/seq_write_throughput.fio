@@ -1,5 +1,5 @@
 [write_throughput]
-numjobs=8
+numjobs=16
 size=1G
 time_based=1
 runtime=30s
